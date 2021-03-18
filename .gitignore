@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+__pycache__
+./record
+./stat.pt
+./dataset
+./utils/.ipynb_checkpoints
+./utils/__pycache__
+./utils/models/.ipynb_checkpoints
+./utils//models/__pycache__
