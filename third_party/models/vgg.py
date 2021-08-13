@@ -112,7 +112,7 @@ def vgg16(nchannels=3, **kwargs):
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
     """
-    model = VGG(make_layers(cfg['D']), nchannels=nchannels, **kwargs)
+    model = VGG(make_layers(cfg['D'], nchannels=nchannels), **kwargs)
     return model
 
 
